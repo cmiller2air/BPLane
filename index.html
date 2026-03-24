@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ETRI-Lane</title>
+  <title>BPLane</title>
   <style>
     :root {
       --bg: #f4f1e8;
@@ -167,16 +167,16 @@
     <section class="hero">
       <div class="hero-grid">
         <div>
-          <div class="eyebrow">Dataset Landing Page</div>
-          <h1>ETRI-Lane</h1>
+          <div class="eyebrow">Project Page</div>
+          <h1>BPLane</h1>
           <p class="lead">
-            ETRI-Lane is a real-world lane benchmark introduced in our BPLane paper. It contains lane data collected from South Korean cities including Daejeon, Seoul, Hwaseong, Ulsan, and Sejong, covering snow, rain, night driving, construction zones, and unpaved roads.
+            BPLane is a proposal-refinement lane detector built around three coordinated improvements: a DINOv3+UPLiFT global-to-dense feature path, BiAngle proposal geometry, and a token-based lane-count prior with MAP-annealed decoding.
           </p>
           <p class="lead">
-            The annotations are generated through auto-labeling and then refined by a single human annotator for consistency. The benchmark is designed with dedicated training and validation splits.
+            This project page is the home for the ETRI-Lane dataset and benchmark, together with BPLane pretrained weights, training code, and project updates.
           </p>
           <div class="notice">
-            The dataset and benchmark protocol will be released here after the corresponding paper becomes publicly available.
+            ETRI-Lane contains lane data collected from South Korean cities including Daejeon, Seoul, Hwaseong, Ulsan, and Sejong, covering snow, rain, night driving, construction zones, and unpaved roads.
           </div>
         </div>
         <div class="card hero-image">
@@ -190,22 +190,22 @@
         <article class="card panel">
           <h2>Overview</h2>
           <p class="muted">
-            ETRI-Lane broadens lane-detection evaluation toward Korean urban and suburban driving scenes that are underrepresented in standard benchmarks.
+            BPLane strengthens three stages that directly shape final lane-detection performance: proposal parameterization, global-to-dense feature extraction, and output-cardinality selection after NMS.
           </p>
         </article>
         <article class="card panel">
-          <h2>Scene Diversity</h2>
+          <h2>Project Resources</h2>
           <ul>
-            <li>South Korean city data from Daejeon, Seoul, Hwaseong, Ulsan, and Sejong</li>
-            <li>Snow, rain, night driving, construction environments, and unpaved roads</li>
-            <li>Real-world lane structure variation beyond clean highway settings</li>
+            <li>ETRI-Lane dataset and benchmark resources</li>
+            <li>BPLane pretrained weights</li>
+            <li>BPLane training code and related updates</li>
           </ul>
         </article>
       </div>
     </section>
 
     <section class="footer">
-      Contact and additional resources will be added with the public release.
+      Contact and additional resources will be posted on this page.
     </section>
   </main>
 </body>

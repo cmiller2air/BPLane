@@ -1,9 +1,9 @@
-# ETRI-Lane
+# BPLane
 
 ![ETRI-Lane representative samples](assets/etri_diversity.jpg)
 
-ETRI-Lane is a real-world lane benchmark introduced in our BPLane paper. The dataset contains lane data collected from South Korean cities including Daejeon, Seoul, Hwaseong, Ulsan, and Sejong, covering snow, rain, night driving, construction zones, and unpaved roads.
+BPLane is a proposal-refinement lane detector built around three coordinated improvements: a DINOv3+UPLiFT global-to-dense feature path, BiAngle proposal geometry, and a token-based lane-count prior with MAP-annealed decoding.
 
-The annotations are generated through auto-labeling and refined by a single human annotator for consistency. ETRI-Lane is organized with dedicated training and validation splits.
+This repository is the project page for BPLane and ETRI-Lane. It will host the ETRI-Lane dataset and benchmark resources together with BPLane pretrained weights and training code.
 
-The dataset and benchmark protocol will be released in this repository after the corresponding paper becomes publicly available.
+ETRI-Lane contains lane data collected from South Korean cities including Daejeon, Seoul, Hwaseong, Ulsan, and Sejong, covering snow, rain, night driving, construction zones, and unpaved roads. The annotations are generated through auto-labeling and refined by a single human annotator for consistency.
